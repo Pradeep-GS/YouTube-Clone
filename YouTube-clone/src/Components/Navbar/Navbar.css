@@ -1,0 +1,70 @@
+.flex-div
+{
+    justify-content: space-between;
+    padding: 5px;
+}
+nav
+{
+    position: sticky;
+    background-color: white;
+    top: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.left-nav
+{
+    gap: 20px;
+}
+.left-nav .menu
+{
+    width: 20px;
+}
+.left-nav .logo
+{
+    width: 150px;
+}
+.middle-nav
+{
+    padding: 5px;
+    height: 30px;
+    border: 1px solid;
+    width: 40%;
+    gap: 15px;
+    border-radius: 25px
+}
+.middle-nav input
+{
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+    padding: 5px;
+    height: 100%;
+}
+.search
+{
+    
+    width: 20px;
+    margin-right: 10px;
+}
+.rigth-nav
+{
+    gap: 20px;
+}
+.rigth-nav .create
+{
+    width: 25px;
+}
+.rigth-nav .more
+{
+    width: 25px;
+}
+.rigth-nav .notification
+{
+    width: 25px;
+}
+.profile
+{
+    width: 50px;
+    border-radius: 50%;
+}
